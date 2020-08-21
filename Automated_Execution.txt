@@ -1,0 +1,18 @@
+d:
+
+# to execute
+
+cd \AnacondaProjects\AlgorithmicTrading\Brody_AI
+
+jupyter nbconvert --to notebook --execute Brody.ipynb # to execute notebook
+#jupyter nbconvert --execute --to html Brody.ipynb # to execute and export to html
+jupyter nbconvert Brody.ipynb
+jupyter nbconvert --to pdf Brody.ipynb
+
+
+# console response if everythingh is OK
+# [NbConvertApp] Converting notebook Brody.ipynb to notebook
+# [NbConvertApp] Executing notebook with kernel: python3
+# [NbConvertApp] Writing 812798 bytes to Brody.nbconvert.ipynb
+
+
